@@ -1,6 +1,157 @@
+/*Generics*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: RGB(114,255,233);
+}
+
+.container{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 40px;
+}
+
+
+/*Header*/
+
+header {
+    padding: 15px 20px;
+    width: 100%;
+    height:100px;
+    background-color: white;;
+}
+
+
+#boolean-logo {
+    vertical-align: middle;
+    height: 60px;
+}
+
+
+header > h1 {
+   vertical-align: middle;
+   display: inline;
+   font-size: 40px;
+   font-weight: 800;
+}
+
+/*Main*/
+
+main {
+    background: white;
+    width: 900px;
+    height: 56px;
+    border-radius: 4px;
+    padding-top: 18px;
+    padding-left: 40px;
+ }
+
+
+main > a {
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+ .bottom-a-blue {
+    background: dodgerblue;
+    color: white;
+    padding: 6px 11px;
+ }
+ 
+
+ .bottom-a-white {
+    background: white;
+    color: grey; 
+    border: 1px solid grey;
+    padding: 5px 10px;
+ }
+
+
+/*Footer*/
+
+footer {
+    width: 900px;
+    height: 680px;
+    background: azure;
+    margin-top: 2px;
+    border-radius: 4px;
+    padding: 50px;
+ }
+
+   ul li {
+    list-style:none;
+    margin-top: 22px;
+   }
+
+    b {
+    font-size: 22px;
+    }
+
+   
+
+   .span-green {
+    border: 1px solid green;
+    border-radius: 50px;
+    color: green;
+   }
+
+
+   .span-red {
+    border: 1px solid red;
+    border-radius: 50px;
+    color: green;
+   }
+
+
+   
+   .blue-border {
+    background: dodgerblue;
+    color: white;
+   }
+
+
+
+   .purple-border{
+    background: purple;
+    color: white;
+   }
+
+
+
+   .green-border{
+    background: green;
+    color: white;
+   }
+
+   
+
+   .orange-border{
+    background: orange;
+    color: white;
+   }
+
+   
+   
+   .pink-border{
+    background: pink;
+    color: white;
+   }
+
+   
+   .lime-border{
+    background: greenyellow;
+    color: white;
+   }
+   
+   .wer {
+    padding: 6px 8px;
+    border-radius: 50px;
+    font-size: 14px;
+   }
 
