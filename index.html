@@ -14,44 +14,96 @@
         <h1>Toboolist</h1>
     </header>
 
-    <div class="container">
-
-    <!-- Main-->
-    <section>
-        <a href="" class="bottom-a-blue">Add Task</a>  
-        <a href="" class="bottom-a-white">Add Section</a>
-    </section>
     
 
-    <!--Footer page-->
+    <!-- Main-->
     <main>
-        <ul>
-            <li> 
-                <h3>&#9660; New task</h3>
-                <ul>
-                    <li><span class="span-green marg-space"> &#10003; </span> Quarterly Newsletter <span class="blue-border wer"> Editorial</span></li>
-                </ul>
-            </li>
-            <li>
-                <h3>&#9660; Today</h3>
-                <ul>
-                    <li><span class="span-green marg-space"> &#10003; </span> Recruiting blog post <span class="blue-border wer"> Editorial</span></li>
-                    <li><span class="span-green marg-space"> &#10003; </span> Mobile app launch <span class="purple-border wer"> Q1-Goals</span></li>
-                    <li><span class="span-red marg-space"> &#10007; </span> Interview John H. <span class="green-border wer"> Recruiting</span></li>
-                    <li><span class="span-green marg-space"> &#10003; </span> Summit update to mobile storefronts <span class="orange-border wer"> Mobile</span></li>
-                </ul>
-            </li>
-            <li>
-                <h3>&#9660; Up coming</h3>
-                <ul>
-                    <li><span class="span-red marg-space"> &#10007; </span> Schedule Meeting with Alex <span class="green-border wer"> Reecruiting</span></li>
-                    <li><span class="span-green marg-space"> &#10003; </span> Homepage refresh <span class="pink-border wer"> Website</span></li>
-                    <li><span class="span-red marg-space"> &#10007; </span> Onboard new Sales team members <span class="lime-border wer"> Sales</span></li>
-                    <li><span class="span-green marg-space"> &#10003; </span> Review editorial character <span class="orange-border wer"> Editorial</span></li>
-                </ul>
-            </li>
-        </ul>
-    </main>
+    <div class="card">
+        <!-- Card header-->
+        <div class="card-head">
+            <button class="btn btn-primary">Add task</button>
+            <button class="btn btn-secondary">Add section</button>
+        </div>
+
+        <!-- Card-body-->
+        <div class="card-body">
+            <ul>
+                <li>
+                    <h3>&blacktriangledown; New Task</h3>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status">&check;</span>
+                            <span class="task-text">Quarterly Newsletter</span>
+                            <span class="back-badge bg-blue">Editorial</span>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>&blacktriangledown; Today</h3>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status task-green">&check;</span>
+                            <span class="task-text">Recruitinig blog post</span>
+                            <span class="back-badge bg-blue">Editorial</span>
+                        </li>
+                    </ul>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status task-green">&check;</span>
+                            <span class="task-text">Mobile app launch</span>
+                            <span class="back-badge bg-purp">Q-1goals</span>
+                        </li>
+                    </ul>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status task-red">&check;</span>
+                            <span class="task-text ">Interview John H.</span>
+                            <span class="back-badge bg-green">Recruiting</span>
+                        </li>
+                    </ul>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status task-green">&check;</span>
+                            <span class="task-text">Summit update to mobile storefronts</span>
+                            <span class="back-badge bgorange">Mobile</span>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>&blacktriangledown; Upcoming</h3>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status task-red">&check;</span>
+                            <span class="task-text ">Schedule Meeting with Alex</span>
+                            <span class="back-badge bg-green">Recruiting</span>
+                        </li>
+                    </ul>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status task-green">&check;</span>
+                            <span class="task-text">Homepage refresh</span>
+                            <span class="back-badge bg-light-purp">Website</span>
+                        </li>
+                    </ul>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status task-red">&check;</span>
+                            <span class="task-text ">Onboard new Sales team members</span>
+                            <span class="back-badge bg-lime">Sales</span>
+                        </li>
+                    </ul>
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <span class="task-status task-green">&check;</span>
+                            <span class="task-text">Review editorial character</span>
+                            <span class="back-badge bg-orange">Editorial</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
     </div>
+</main>
 </body>
 </html>

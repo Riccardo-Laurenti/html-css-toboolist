@@ -10,15 +10,34 @@ body {
     background-color: RGB(210,228,219);
 }
 
+/*Uilities*/
 
-/*Header*/
-
-.container{
-    margin: 0 auto;
-    width: 45%;
-    margin-top: 40px;
+.bg-blue {
+    background-color: #2ba9cf;
 }
 
+.bg-purp {
+    background-color: #b955d8;;
+}
+
+.bg-green {
+    background-color: #41bd79;;
+}
+
+.bg-orange {
+    background-color: #fa8947;;
+}
+
+.bg-light-purp {
+    background-color: #dd2c67;;
+}
+
+.bg-lime {
+    background-color: #90d315;;
+}
+
+
+/*Main*/
 
 header {
     padding: 15px 20px;
@@ -28,7 +47,7 @@ header {
 
 
 #boolean-logo {
-    vertical-align: middle;
+    vertical-align: middle;color:#09708f;
     height: 60px;
 }
 
@@ -40,118 +59,89 @@ header > h1 {
    font-weight: 800;
 }
 
-/*section*/
+ul {
+    list-style: none;
+}
 
-section {
-    background: white;
-    width: 900px;
-    height: 56px;
-    border-radius: 5px 5px 0px 0px; 
-    padding-top: 18px;
-    padding-left: 40px;
- }
+h3 {
+    margin-bottom: 20px;
+}
 
+/*Main*/
 
-section > a {
-    text-decoration: none;
-    border-radius: 4px;
+.card {
+ width: 50%;
+ background-color: white;
+ margin: 30px auto;
+ border-radius: 5px;
+}
+
+.card-head {
+    padding: 10px 30px;
+    border-bottom: 2px solid RGB(210,228,219);
+}
+
+.card-body {
+    padding: 40px 30px;
 }
 
 
- .bottom-a-blue {
-    background: dodgerblue;
-    color: white;
-    padding: 6px 11px;
- }
- 
 
- .bottom-a-white {
-    background: white;
-    color: grey; 
-    border: 1px solid grey;
-    padding: 5px 10px;
- }
+/*Button*/
+
+.btn {
+ font-size: 14px ;
+ padding: 5px 10px;
+ border-radius: 5px ;
+ border: 1px solid transparent;
+ text-decoration: none;
+}
+
+.btn.btn-primary { 
+ color: white;
+ background-color: dodgerblue;
+}
 
 
-/*Footer*/
+.btn.btn-secondary {
+ background: white;
+ color: grey;
+ border-color: grey;
+}
 
-main {
-    width: 900px;
-    background: azure;
-    margin-top: 2px;
-    border-radius: 0px 0px 5px 5px; 
-    padding: 50px;
- }
+/*Task*/
+.task-item {
+ height: 40px;
+}
 
-   ul li {
-    list-style:none;
-    margin-top: 25px;
-   }
+.task-status {
+ border-radius: 50%;
+ width: 15px;
+ height: 15px;
+ display: inline-block;
+ font-size: 10px;
+ vertical-align: middle;
+ text-align: center;
+ line-height: 15px;
+ border: 1px solid currentColor;
+}
 
-   
+.task-text {
+    vertical-align: middle;
+}
 
-   .span-green {
-    border: 1px solid green;
-    border-radius: 50px;
+.task-status.task-red {
+    color: red;
+}
+
+.task-status.task-green {
     color: green;
-   }
+}
 
-
-   .span-red {
-    border: 1px solid red;
-    border-radius: 50px;
-    color: green;
-   }
-
-
-   
-   .blue-border {
-    background: dodgerblue;
+.back-badge {
     color: white;
-   }
-
-
-
-   .purple-border{
-    background: purple;
-    color: white;
-   }
-
-
-
-   .green-border{
-    background: green;
-    color: white;
-   }
-
-   
-
-   .orange-border{
-    background: orange;
-    color: white;
-   }
-
-   
-   
-   .pink-border{
-    background: pink;
-    color: white;
-   }
-
-   
-   .lime-border{
-    background: greenyellow;
-    color: white;
-   }
-   
-   .wer {
-    padding: 6px 8px;
-    border-radius: 50px;
     font-size: 12px;
-   }
-
-    .marg-space  {
-        margin: 3px;
-    }
-
- 
+    vertical-align: middle;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
